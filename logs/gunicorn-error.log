@@ -1,0 +1,618 @@
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Not Found: /polls/
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Not Found: /admin/polls/2/
+Not Found: /polls/2/detail/
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Not Found: /admin/polls/2/
+Internal Server Error: /polls/2/
+Traceback (most recent call last):
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/urban/urban-train/polls/views.py", line 28, in detail
+    question = get_object_or_404(Question, pk=question_id)
+NameError: global name 'get_object_or_404' is not defined
+Not Found: /polls/2/detail/
+Internal Server Error: /polls/2/
+Traceback (most recent call last):
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/urban/urban-train/polls/views.py", line 28, in detail
+    question = get_object_or_404(Question, pk=question_id)
+NameError: global name 'get_object_or_404' is not defined
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/urban/urban-train/polls/views.py", line 13, in index
+    return render(request, 'polls/index.html', context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 207, in render
+    return self._render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/urban/local/lib/python2.7/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/urban/local/lib/python2.7/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+NoReverseMatch: Reverse for 'detail' not found. 'detail' is not a valid view function or pattern name.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/urban/urban-train/polls/views.py", line 13, in index
+    return render(request, 'polls/index.html', context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 207, in render
+    return self._render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/urban/local/lib/python2.7/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/urban/local/lib/python2.7/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+NoReverseMatch: Reverse for 'detail' not found. 'detail' is not a valid view function or pattern name.
+Internal Server Error: /polls/1/
+Traceback (most recent call last):
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/urban/urban-train/polls/views.py", line 28, in detail
+    question = get_object_or_404(Question, pk=question_id)
+NameError: global name 'get_object_or_404' is not defined
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Not Found: /polls/1/votes/
+Not Found: /
+Internal Server Error: /polls/1/
+Traceback (most recent call last):
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/urban/urban-train/polls/views.py", line 28, in detail
+    question = get_object_or_404(Question, pk=question_id)
+NameError: global name 'get_object_or_404' is not defined
+Not Found: /muieblackcat
+Not Found: /phpmyadmin/scripts/setup.php
+Not Found: /phpMyAdmin/scripts/setup.php
+Not Found: /mysqladmin/scripts/setup.php
+Internal Server Error: /polls/1/
+Traceback (most recent call last):
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/urban/urban-train/polls/views.py", line 28, in detail
+    question = get_object_or_404(Question, pk=question_id)
+NameError: global name 'get_object_or_404' is not defined
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/urban/urban-train/polls/views.py", line 13, in index
+    return render(request, 'polls/index.html', context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 207, in render
+    return self._render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/urban/local/lib/python2.7/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/urban/local/lib/python2.7/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+NoReverseMatch: Reverse for 'detail' not found. 'detail' is not a valid view function or pattern name.
+Internal Server Error: /polls/1/
+Traceback (most recent call last):
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/urban/urban-train/polls/views.py", line 29, in detail
+    return render(request, 'polls/detail.html', {'question': question})
+  File "/home/urban/local/lib/python2.7/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 207, in render
+    return self._render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/urban/local/lib/python2.7/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/urban/local/lib/python2.7/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+NoReverseMatch: Reverse for 'detail' not found. 'detail' is not a valid view function or pattern name.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: 'testp3.pospr.waw.pl'. You may need to add u'testp3.pospr.waw.pl' to ALLOWED_HOSTS.
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/urban/urban-train/polls/views.py", line 13, in index
+    
+  File "/home/urban/local/lib/python2.7/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 207, in render
+    return self._render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/urban/local/lib/python2.7/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/urban/local/lib/python2.7/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+NoReverseMatch: Reverse for 'detail' not found. 'detail' is not a valid view function or pattern name.
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/urban/urban-train/polls/views.py", line 18, in index
+    return render(request, 'polls/index.html', context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 207, in render
+    return self._render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/urban/local/lib/python2.7/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/urban/local/lib/python2.7/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+NoReverseMatch: Reverse for 'detail' not found. 'detail' is not a valid view function or pattern name.
+Internal Server Error: /polls/1/results/
+Traceback (most recent call last):
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/urban/urban-train/polls/views.py", line 43, in results
+    return render(request, 'polls/results.html', {'question': question})
+  File "/home/urban/local/lib/python2.7/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+TemplateDoesNotExist: polls/results.html
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/response.py", line 84, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 207, in render
+    return self._render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/urban/local/lib/python2.7/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/urban/local/lib/python2.7/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+NoReverseMatch: Reverse for 'detail' not found. 'detail' is not a valid view function or pattern name.
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/response.py", line 84, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 207, in render
+    return self._render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/urban/local/lib/python2.7/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/urban/local/lib/python2.7/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+NoReverseMatch: Reverse for 'detail' not found. 'detail' is not a valid view function or pattern name.
+Not Found: /
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/response.py", line 84, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 207, in render
+    return self._render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/urban/local/lib/python2.7/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/urban/local/lib/python2.7/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+NoReverseMatch: Reverse for 'detail' not found. 'detail' is not a valid view function or pattern name.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Not Found: /
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Not Found: /
+Not Found: /
+Not Found: /Robots.txt
+Not Found: /SiteMap.xml
+Not Found: /
+Not Found: /favicon.ico
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /polls/2/
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Not Found: /favicon.ico
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Not Found: /manager/html
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: 'testp3.pospr.waw.pl'. You may need to add u'testp3.pospr.waw.pl' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Not Found: /manager/html
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Not Found: /mysql/admin/
+Not Found: /mysql/dbadmin/
+Not Found: /mysql/sqlmanager/
+Not Found: /mysql/mysqlmanager/
+Not Found: /phpmyadmin/
+Not Found: /phpMyadmin/
+Not Found: /phpMyAdmin/
+Not Found: /phpmyAdmin/
+Not Found: /phpmyadmin2/
+Not Found: /phpmyadmin3/
+Not Found: /phpmyadmin4/
+Not Found: /2phpmyadmin/
+Not Found: /phpmy/
+Not Found: /phppma/
+Not Found: /myadmin/
+Not Found: /shopdb/
+Not Found: /MyAdmin/
+Not Found: /program/
+Not Found: /PMA/
+Not Found: /dbadmin/
+Not Found: /pma/
+Not Found: /db/
+Not Found: /mysql/
+Not Found: /database/
+Not Found: /db/phpmyadmin/
+Not Found: /db/phpMyAdmin/
+Not Found: /sqlmanager/
+Not Found: /mysqlmanager/
+Not Found: /php-myadmin/
+Not Found: /phpmy-admin/
+Not Found: /mysqladmin/
+Not Found: /mysql-admin/
+Not Found: /admin/phpmyadmin/
+Not Found: /admin/phpMyAdmin/
+Not Found: /admin/sysadmin/
+Not Found: /admin/sqladmin/
+Not Found: /admin/db/
+Not Found: /admin/web/
+Not Found: /admin/pMA/
+Not Found: /mysql/pma/
+Not Found: /mysql/db/
+Not Found: /mysql/web/
+Not Found: /mysql/pMA/
+Not Found: /sql/phpmanager/
+Not Found: /sql/php-myadmin/
+Not Found: /sql/phpmy-admin/
+Not Found: /sql/sql/
+Not Found: /sql/myadmin/
+Not Found: /sql/webadmin/
+Not Found: /sql/sqlweb/
+Not Found: /sql/websql/
+Not Found: /sql/webdb/
+Not Found: /sql/sqladmin/
+Not Found: /sql/sql-admin/
+Not Found: /sql/phpmyadmin2/
+Not Found: /sql/phpMyAdmin2/
+Not Found: /sql/phpMyAdmin/
+Not Found: /db/myadmin/
+Not Found: /db/webadmin/
+Not Found: /db/dbweb/
+Not Found: /db/websql/
+Not Found: /db/webdb/
+Not Found: /db/dbadmin/
+Not Found: /db/db-admin/
+Not Found: /db/phpmyadmin3/
+Not Found: /db/phpMyAdmin3/
+Not Found: /db/phpMyAdmin-3/
+Not Found: /administrator/phpmyadmin/
+Not Found: /administrator/phpMyAdmin/
+Not Found: /administrator/db/
+Not Found: /administrator/web/
+Not Found: /administrator/pma/
+Not Found: /administrator/PMA/
+Not Found: /administrator/admin/
+Not Found: /phpMyAdmin2/
+Not Found: /phpMyAdmin3/
+Not Found: /phpMyAdmin4/
+Not Found: /phpMyAdmin-3/
+Not Found: /php-my-admin/
+Not Found: /PMA2011/
+Not Found: /PMA2012/
+Not Found: /PMA2013/
+Not Found: /PMA2014/
+Not Found: /PMA2015/
+Not Found: /PMA2016/
+Not Found: /PMA2017/
+Not Found: /PMA2018/
+Not Found: /pma2011/
+Not Found: /pma2012/
+Not Found: /pma2013/
+Not Found: /pma2014/
+Not Found: /pma2015/
+Not Found: /pma2016/
+Not Found: /pma2017/
+Not Found: /pma2018/
+Not Found: /phpmyadmin2011/
+Not Found: /phpmyadmin2012/
+Not Found: /phpmyadmin2013/
+Not Found: /phpmyadmin2014/
+Not Found: /phpmyadmin2016/
+Not Found: /phpmyadmin2017/
+Not Found: /phpmyadmin2018/
+Not Found: /phpmanager/
+Not Found: /hndUnblock.cgi
+Not Found: /tmUnblock.cgi
+Not Found: /moo
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Not Found: /
+Not Found: /
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: 'testp3.pospr.waw.pl'. You may need to add u'testp3.pospr.waw.pl' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Not Found: /favicon.ico
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Not Found: /
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
